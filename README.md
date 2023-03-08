@@ -14,7 +14,7 @@ Backend to be used for **https://bchh325.github.io/spotify-distribution/**
 
 ## Completed Tasks
 * Authorization endpoint to redirect user to Spotify's authentication URL
-* State comparisons before/after redirect and obtained auth_code
+* State comparisons before/after redirect, then obtaining auth_code
 * Connected MongoDB for express-sessions
 * Successfully exchanged auth_code and verifiers and stored access/refresh tokens in session on MongoDB, client also successfully recieves httpOnly session cookie
 * Created controller function for requesting playlists from Spotify's Web API
